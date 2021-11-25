@@ -8,8 +8,6 @@
         :book='book'
       ></book-item>
     </ul>
-    <span v-if="book.finishedReading">Read</span>
-    <span v-else>Not Read</span>
     <br>
     <hr>
     <book-form @addBook='appendBook'></book-form>
