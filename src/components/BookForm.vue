@@ -54,7 +54,7 @@ export default {
       bookData: {
         bookTitle: "",
         bookAuthor: "",
-        finishedReagind: false,
+        finishedReading: false,
         ownership: []
       }
     };
